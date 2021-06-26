@@ -1,0 +1,126 @@
+/* Reset css */
+html,body{
+    padding: 0px;
+    margin: 0px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* header */
+
+/* end header */
+
+.wrapped{
+    padding: 48px 96px;
+    display: flex;
+}
+
+.left-sign{
+    min-height: 500px;
+    flex: 7;
+}
+
+
+.create-line{
+    font-size: 58px;
+    font-weight: 800 ;
+    letter-spacing: 2.5px;
+}
+
+.get-line{
+    font-weight: 700;
+    opacity: 0.8;
+}
+
+.left-img{
+    width: 100%;
+    display: flex;
+}
+
+.img-main{
+    margin-right: 16px;
+    align-self: center;
+}
+
+
+.right-sign{
+    flex: 5;
+}
+
+.form-main{
+    height: 800px;
+    width: 440px;
+    margin: 48px;
+    padding: 40px 24px;
+    border: 1px solid #ccc;
+    min-height: 500px;
+    border-radius: 8px;
+    align-self: center;
+    box-sizing: border-box;
+}
+
+.Sign-up{
+    color: #42ADE2;
+    font-size: 32px;
+}
+
+.form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.flex-form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+}
+
+.email-form{
+    margin-top: 24px;
+}
+
+.nameLabel{
+    margin-bottom: 4px;
+}
+
+.nameInput{
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    padding: 10px ;
+    margin-bottom: 16px;
+}
+
+.account-create{
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #42ADE2;
+    justify-content: center;
+    padding: 5px;
+    margin-top: 32px;
+}
+
+.login-link{
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    margin: 8px;
+    padding-bottom: 36px;
+    border-bottom: 1px solid #ccc;
+}
+
+.login-link a{
+    text-decoration: none;
+    color: #42ADE2;
+}
+
+.desc{
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    line-height: 14px;
+    padding-top: 16px;
+}
+.desc a{
+    color: #333;
+}
